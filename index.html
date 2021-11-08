@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Loïc Etienne</title>
+	<!-- Favicon-->
+	<link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+	<!-- Font Awesome icons (free version)-->
+	<script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<link rel="stylesheet" href="site.css">
+	<link rel="icon" href="img/icon.PNG">
+</head>
+<body>
+<header>
+	<nav class="navbar navbar-expand-lg mr-auto p-3 px-md-4 bg-dark text-white text-uppercase">
+		<a class="navbar-brand font-weight-bold text-white" href="#">Loïc Etienne</a>
+		<button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+		  <span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+		  <div class="navbar-nav">
+			<a class="nav-item nav-link text-white" href="#aboutMe">About me</a>
+			<a class="nav-item nav-link text-white" href="#portfolio">Portfolio <span class="sr-only">(current)</span></a>
+		  </div>
+		</div>
+	  </nav>
+</header>
+<main>
+	<!-- Welcome -->
+	<div class="text-center bg-image d-flex justify-content-center align-items-center flex-column" style="background-image: url(img/passerelle.jpg); height: 100vh;">
+		<h2 class="presentation-title font-weight-bold text-white">Hello, I'm Loïc Etienne</h2>
+		<p class="presentation-paragraph text-white">I am a Software Developer</p>
+	</div>
+	<!-- About me section -->
+	<section  class="bg-light d-flex align-items-center justify-content-center flex-column flex-sm-row flex-md-row flex-lg-row p-5" id="aboutMe">
+		<div class="d-flex flex-column justify-content-center align-items-center">
+			<h2 class="font-weight-bold col-12">About me</h2>
+			<p class="col-12" >
+				My name is Loïc Etienne, I am 25 years old and I am a software developer.
+				<br>
+				I am passionate about computers and I love creating things, especially programs that meet needs and video games.
+				<br>
+				I am also passionate about video games, cinema and sports.
+				<br>
+				I wish you a good visit on my site!
+			</p>
+		</div>
+		<img class="img-fluid rounded col-12 col-sm-4 col-md-4 col-lg-4" alt="Responsive image" src="img/profilepic.jpg">
+			
+	</section>
+	<div class="d-flex justify-content-between align-items-center p-5" id="portfolio">
+		<h2 class="font-weight-bold">Portfolio</h2>
+		<a class="text-dark"  target=”_blank” href="https://github.com/lo-etienne">More works -></a>
+	</div>
+	<div class="d-flex row justify-content-center">
+		<!-- Portfolio Item 1-->
+		<div class="col-md-6 col-lg-4 mb-5">
+			<div class="card h-100">
+				<div class="embed-responsive embed-responsive-16by9">
+					<img class="card-img-top embed-responsive-item" src="img/keep-growing.png" alt="Card image cap">
+				</div>
+				<div class="card-body">
+				<h5 class="card-title">Keep Growing</h5>
+				<p class="card-text">
+					Is a game that I developed as part of a gamejam between friends, the theme was Keep Growing. Every 10 seconds you will lose part of yourself, but no worries, eat the yellow pills and you will be fine !</p>
+				</div>
+				<div class="card-body d-flex flex-column">
+					<a href="https://lofret.itch.io/keep-growing" target="_blank" class="card-link btn btn-info mt-auto align-self-end">Details</a>
+				</div>
+			</div>
+		</div>
+		<!-- Portfolio Item 2-->
+		<div class="col-md-6 col-lg-4 mb-5">
+			<div class="card h-100">
+				<div class="embed-responsive embed-responsive-16by9">
+					<img class="card-img-top embed-responsive-item" src="img/dodgeit.png" alt="Card image cap">
+				</div>
+				<div class="card-body">
+				<h5 class="card-title">Dodge it !</h5>
+				<p class="card-text">This is a project developed for personal purposes, I wanted to learn about video game development. So I developed an arcade game in which we have to dodge procedurally generated obstacles. I used the Unity game engine.</p>
+				</div>
+				<div class="card-body d-flex flex-column">
+					<a href="#" class="card-link btn btn-info mt-auto align-self-end">Details</a>
+				</div>
+			</div>
+		</div>
+		<!-- Portfolio Item 3-->
+		<div class="col-md-6 col-lg-4 mb-5">
+			<div class="card h-100">
+				<div class="embed-responsive embed-responsive-16by9">
+					<img class="card-img-top embed-responsive-item" src="img/reversi.jpg" alt="Card image cap">
+				</div>
+				<div class="card-body">
+				<h5 class="card-title">Reversi</h5>
+				<p class="card-text">A Java implementation of the game Othello as part of a course on object oriented programming, in pairs. We used the Slick2D library.</p>
+				</div>
+				<div class="card-body d-flex flex-column">
+					<a href="#" class="card-link btn btn-info mt-auto align-self-end">Details</a>
+				</div>
+			</div>
+		</div>
+		<!-- Portfolio Item 4-->
+		<div class="col-md-6 col-lg-4 mb-5">
+			<div class="card h-100">
+				<div class="embed-responsive embed-responsive-16by9">
+					<img class="card-img-top embed-responsive-item" src="img/reciper.webp" alt="Card image cap">
+				</div>
+				<div class="card-body">
+				<h5 class="card-title">Reciper</h5>
+				<p class="card-text">A mobile application developed in pairs as part of a course on mobile development, it allows you to manage recipes.</p>
+				</div>
+				<div class="card-body d-flex flex-column">
+					<a href="#" class="card-link btn btn-info mt-auto align-self-end">Details</a>
+				</div>
+			</div>
+		</div>
+		<!-- Portfolio Item 5-->
+		<div class="col-md-6 col-lg-4 mb-5">
+			<div class="card h-100">
+				<div class="embed-responsive embed-responsive-16by9">
+					<img class="card-img-top embed-responsive-item" src="img/timesheeter.jpg" alt="Card image cap">
+				</div>
+				<div class="card-body">
+				<h5 class="card-title">Time Sheeter</h5>
+				<p class="card-text">A mobile application developed with three friends during a 48-hour Hackaton for Deloitte Luxembourg. It allows you to manage timesheets.</p>
+				</div>
+				<div class="card-body d-flex flex-column">
+					<a href="#" class="card-link btn btn-info mt-auto align-self-end">Details</a>
+				</div>
+			</div>
+		</div>
+		<!-- Portfolio Item 6-->
+		<div class="col-md-6 col-lg-4 mb-5">
+			<div class="card h-100">
+				<div class="embed-responsive embed-responsive-16by9">
+					<img class="card-img-top embed-responsive-item" src="img/cinemaforyou.PNG" alt="Card image cap">
+				</div>
+				<div class="card-body">
+				<h5 class="card-title">Cinema For You</h5>
+				<p class="card-text">A web application for a cinema developed as part of a course on web development.</p>
+				</div>
+				<div class="card-body d-flex flex-column">
+					<a href="#" class="card-link btn btn-info mt-auto align-self-end">Details</a>
+				</div>
+			</div>
+		</div>
+		
+	</div>
+</main>
+<footer class="bg-dark navbar d-flex flex-column">
+	<div>
+		<h2 class="text-white m-4">Around the web</h2>
+		<div class="d-flex aligh-item-center justify-content-between m-2">
+			<a href="https://github.com/lo-etienne" class="embed-responsive embed-responsive-1by1"target="_blank">
+				<img class="embed-responsive-item" src="img/GitHub-Mark-Light-120px-plus.png">
+			</a>
+			<a href="https://lofret.itch.io/" class="embed-responsive embed-responsive-1by1" target="_blank">
+				<img class="embed-responsive-item" src="img/itchio.svg">
+			</a>
+			<a href="https://www.linkedin.com/in/loicetiennedev/" class="embed-responsive embed-responsive-1by1"target="_blank">
+				<img class="embed-responsive-item" src="img/linkedin.png">
+			</a>
+		</div>
+	</div>
+	<span class="text-white m-4">© 2021 Loïc Etienne. All Rights Reserved.</span>
+</footer>
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>

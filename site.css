@@ -1,0 +1,72 @@
+.nounderline {
+    text-decoration: none o !important;
+}
+
+html,body{
+  overflow-x: hidden;
+}
+
+.row {
+  margin:0px;
+}
+
+/* 
+Extra small devices (portrait phones, less than 544px) 
+No media query since this is the default in Bootstrap because it is "mobile first"
+*/
+h1 {font-size:1rem;} /*1rem = 16px*/
+/*
+####################################################
+M E D I A  Q U E R I E S
+####################################################
+*/
+ 
+/*
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+Bootstrap 4 breakpoints
+*/
+
+/* Small devices (landscape phones, 544px and up) */
+@media (min-width: 500px) {
+  .presentation-title {font-size: 2.5rem;}
+  .presentation-paragraph {font-size: 1.5rem;}
+  .card-title {font-size: 2rem;}
+  .card-text {font-size: 1rem;}
+  .logo {width: 10vh; height: 10vh;}
+  h2 {font-size: 2rem;}
+  p {font-size:0.8rem;} /*1rem = 16px*/
+}
+ 
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {
+  .presentation-title {font-size: 2.7rem;}
+  .presentation-paragraph {font-size: 1.7rem;} 
+    h2 {font-size: 2.2rem;} 
+    p {font-size:1.2rem;} /*1rem = 16px*/
+}
+ 
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .presentation-title {font-size: 2.9rem;}
+  .presentation-paragraph {font-size: 1.9rem;}
+    h2 {font-size: 2.3rem;}  
+  p {font-size:1.3rem;} /*1rem = 16px*/
+}
+ 
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .presentation-title {font-size: 3.1rem;}
+  .presentation-paragraph {font-size: 2.1rem;}
+    h2 {font-size: 2.5rem;}   
+  p {font-size:1.5rem;} /*1rem = 16px*/    
+}
+ 
+/*
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+Custom media queries
+*/
+ 
+/* Set width to make card deck cards 100% width */
+@media (min-width: 950px) and (max-width:1100px) { 
+  h1 {font-size:2.75rem;color:red;} 
+}
